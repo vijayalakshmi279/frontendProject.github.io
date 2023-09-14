@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Institute Signup</title>
+</head>
+<body>
+    <h1>Cat Institute</h1>
+    
+    <!-- Signup Form -->
+    <form id="signup-form" action="about.html">
+        <h2>Sign Up</h2>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="course">Select Course:</label>
+        <select id="course" name="course">
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+            <option value=".NET">.NET</option>
+            <option value="React">React</option>
+        </select><br><br>
+
+        <label>Class Type:</label>
+        <input type="radio" id="weekday" name="classType" value="Weekday">
+        <label for="weekday">Weekday</label>
+        <input type="radio" id="weekend" name="classType" value="Weekend">
+        <label for="weekend">Weekend</label><br><br>
+
+        <label for="resume">Upload Resume:</label>
+        <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required><br><br>
+
+        <input type="submit" value="Sign Up">
+    </form>
+</body>
+</html>
